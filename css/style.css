@@ -58,6 +58,15 @@ div:nth-child(3) {
     background-color: #4abebd;
     padding: var(--padding, 30px);
 }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    line-height: 1.6em;
+}
 /* End section 3 */
 
 main {
