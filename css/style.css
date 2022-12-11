@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font: 16px "karla", sans-serif;
+}
+
+:root {
+    --color-light-gray: hsl(204, 43%, 93%);
+    --color-grayish-blue: hsl(218, 22%, 67%);
 }
 
 .attribution {
