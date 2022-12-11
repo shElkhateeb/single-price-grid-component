@@ -2,15 +2,51 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-light-gray: hsl(203, 44%, 93%);
+    --color-grayish-blue: hsl(218, 22%, 67%);
+    --color-main: #5ab5b4;
+    --color-second: #bfdf32;
+}
+
 body {
     font: 16px "karla", sans-serif;
+    background-color: var(--color-light-gray);
+}
+/* start section 1 */
+h1 {
+    color: var(--color-main);
 }
 
-:root {
-    --color-light-gray: hsl(204, 43%, 93%);
-    --color-grayish-blue: hsl(218, 22%, 67%);
+.head {
+    background-color: white;
 }
 
+.head h2 {
+    color: var(--color-second);
+}
+
+.head p {
+    color: var(--color-grayish-blue);
+}
+/* End section 1 */
+/* start section 2 */
+div:nth-child(2) {
+    color: white;
+    background-color: var(--color-main);
+}
+
+button {
+    color: inherit;
+    background-color: var(--color-second);
+}
+/* End section 2 */
+/* start section 3 */
+div:nth-child(3) {
+    color: white;
+    background-color: #4abebd;
+}
+/* End section 3 */
 .attribution {
   font-size: 11px;
   position: absolute;
