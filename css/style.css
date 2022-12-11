@@ -47,9 +47,26 @@ div:nth-child(2) {
     padding: var(--padding, 30px);
 }
 
+span {
+    font-size: 26px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
 button {
     color: inherit;
     background-color: var(--color-second);
+    width: 240px;
+    height: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 40px;
 }
 /* End section 2 */
 /* start section 3 */
