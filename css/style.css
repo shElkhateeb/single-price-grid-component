@@ -20,6 +20,7 @@ h1 {
 
 .head {
     background-color: white;
+    grid-column: span 2;
 }
 
 .head h2 {
@@ -47,6 +48,21 @@ div:nth-child(3) {
     background-color: #4abebd;
 }
 /* End section 3 */
+
+main {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
 .attribution {
   font-size: 11px;
   position: absolute;
