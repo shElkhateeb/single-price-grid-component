@@ -17,6 +17,7 @@ body {
 /* start section 1 */
 h1 {
     color: var(--color-main);
+    font-size: 24px;
 }
 
 .head {
@@ -33,11 +34,13 @@ h1 {
 
 .head h2 {
     color: var(--color-second);
+    font-size: 18px;
 }
 
 .head p {
     color: var(--color-grayish-blue);
     max-width: 550px;
+    line-height: 1.8em;
 }
 /* End section 1 */
 /* start section 2 */
