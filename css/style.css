@@ -7,6 +7,7 @@
     --color-grayish-blue: hsl(218, 22%, 67%);
     --color-main: #5ab5b4;
     --color-second: #bfdf32;
+    --padding: 30px;
 }
 
 body {
@@ -20,7 +21,14 @@ h1 {
 
 .head {
     background-color: white;
-    grid-column: span 2;
+    padding: var(--padding, 30px);
+
+}
+
+@media screen and (min-width: 1025px) {
+    .head {
+        grid-column: span 2;
+    }
 }
 
 .head h2 {
@@ -29,12 +37,14 @@ h1 {
 
 .head p {
     color: var(--color-grayish-blue);
+    max-width: 550px;
 }
 /* End section 1 */
 /* start section 2 */
 div:nth-child(2) {
     color: white;
     background-color: var(--color-main);
+    padding: var(--padding, 30px);
 }
 
 button {
@@ -46,11 +56,11 @@ button {
 div:nth-child(3) {
     color: white;
     background-color: #4abebd;
+    padding: var(--padding, 30px);
 }
 /* End section 3 */
 
 main {
-    width: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: absolute;
@@ -61,6 +71,16 @@ main {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        grid-template-columns: 1fr;
+        width: 82%;
+        max-width: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 
 .attribution {
