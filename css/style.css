@@ -61,7 +61,7 @@ span {
 }
 
 div:nth-child(2) p {
-  line-height: 1.8em;
+  line-height: 2em;
 }
 
 div:nth-child(2) p:nth-of-type(2) {
