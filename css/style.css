@@ -61,7 +61,7 @@ span {
 }
 
 div:nth-child(2) p {
-    line-height: 1.8em;
+  line-height: 1.8em;
 }
 
 div:nth-child(2) p:nth-of-type(2) {
@@ -153,10 +153,10 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-    :root {
-        --padding: 25px;
-    }
-    main {
-        margin: 40px auto;
-    }
+  :root {
+    --padding: 25px;
+  }
+  main {
+    margin: 70px auto;
+  }
 }
