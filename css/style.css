@@ -5,8 +5,8 @@
 :root {
   --color-light-gray: hsl(203, 44%, 93%);
   --color-grayish-blue: hsl(218, 22%, 67%);
-  --color-main: #5ab5b4;
-  --color-second: #bfdf32;
+  --color-main: hsl(179, 62%, 43%);
+  --color-second: hsl(71, 73%, 54%);
   --padding: 30px;
 }
 
