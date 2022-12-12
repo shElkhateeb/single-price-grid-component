@@ -71,7 +71,7 @@ div:nth-child(2) p:nth-of-type(2) {
 button {
   color: inherit;
   background-color: var(--color-second);
-  width: 270px;
+  width: 300px;
   max-width: 90%;
   height: 50px;
   border: none;
