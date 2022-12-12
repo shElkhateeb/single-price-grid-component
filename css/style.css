@@ -50,16 +50,24 @@ div:nth-child(2) {
     padding: var(--padding, 30px);
 }
 
+div:nth-child(2) h2{
+    font-size: 20px;
+}
+
 span {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 700;
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+div:nth-child(2) p:nth-of-type(2) {
+    font-size: 18px;
 }
 
 button {
     color: inherit;
     background-color: var(--color-second);
-    width: 240px;
+    width: 270px;
     height: 50px;
     border: none;
     font-weight: 700;
@@ -77,6 +85,10 @@ div:nth-child(3) {
     color: white;
     background-color: #4abebd;
     padding: var(--padding, 30px);
+}
+
+div:nth-child(3) h2 {
+    font-size: 20px;
 }
 
 ul {
