@@ -9,7 +9,7 @@
   --color-grayish-blue: hsl(218, 22%, 67%);
   --color-main: hsl(179, 62%, 43%);
   --color-second: hsl(71, 73%, 54%);
-  --padding: 30px;
+  --padding: 40px;
   --margin-lines: 20px;
 }
 
@@ -153,6 +153,9 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+    :root {
+        --padding: 25px;
+    }
     main {
         margin: 40px auto;
     }
