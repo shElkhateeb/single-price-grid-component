@@ -101,7 +101,6 @@ li {
 main {
   width: 86%;
   max-width: 700px;
-  margin: 40px auto;
 }
 
 .attribution {
@@ -136,4 +135,10 @@ main {
     right: 0;
     bottom: 0;
   }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        margin: 40px auto;
+    }
 }
